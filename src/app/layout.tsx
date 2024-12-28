@@ -33,7 +33,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
                 src={store.banner}
               /> */}
               <p
-                className="select-none font-bleedingCowboys text-sm text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl"
+                className="select-none font-bleedingCowboys text-base text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl"
                 style={{textShadow: "#2a1b09 10px 0 10px"}}
               >
                   CALORIAS QUE VALEN LA PENA
