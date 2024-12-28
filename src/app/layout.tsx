@@ -24,19 +24,19 @@ export default async function RootLayout({children}: {children: React.ReactNode}
           <header className="text-xl font-bold leading-[4rem]">
             <div
               className={cn(
-                "to-[#310e09] flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#764704] sm:h-52 lg:h-64",
+                "to-[#310e09] flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#764704] p-4 sm:h-52 lg:h-64",
               )}
             >
-              {/* <img
-                alt="Banner de Bandidas Burger"
-                className="inset-0 h-full w-full object-contain"
-                src={store.banner}
-              /> */}
               <p
-                className="select-none font-bleedingCowboys text-base text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl"
-                style={{textShadow: "#2a1b09 10px 0 10px"}}
+                className="select-none font-bleedingCowboys text-center text-2xl leading-tight text-[#e1d8cc] xs:text-3xl sm:text-4xl md:text-5xl lg:text-7xl"
+                style={{
+                  textShadow: "#2a1b09 10px 0 10px",
+                  maxWidth: "100%",
+                  wordBreak: "break-word",
+                  hyphens: "auto"
+                }}
               >
-                  CALORIAS QUE VALEN LA PENA
+                CALORIAS QUE VALEN LA PENA
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-start">
