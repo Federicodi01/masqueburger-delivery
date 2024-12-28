@@ -20,7 +20,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
   return (
     <html lang="en">
       <body className="bg-background">
-        <div className="font-sans m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-background antialiased px-8">
+        <div className="font-sans container m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-background antialiased">
           <header className="text-xl font-bold leading-[4rem]">
             <div
               className={cn(
@@ -33,7 +33,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
                 src={store.banner}
               /> */}
               <p
-                className="select-none font-bleedingCowboys text-2xl text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl text-nowrap"
+                className="select-none font-bleedingCowboys text-sm text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl"
                 style={{textShadow: "#2a1b09 10px 0 10px"}}
               >
                   CALORIAS QUE VALEN LA PENA
