@@ -9,8 +9,8 @@ import "./globals.css";
 import {cn} from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Bandidas Burger",
-  description: "Bandidas Burger",
+  title: "Mas que Burger",
+  description: "Mas que Burger",
 };
 
 export default async function RootLayout({children}: {children: React.ReactNode}) {
@@ -24,7 +24,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
           <header className="text-xl font-bold leading-[4rem]">
             <div
               className={cn(
-                "to-#21040c flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#460315] sm:h-52 lg:h-64",
+                "to-#21040c flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#6e4105] sm:h-52 lg:h-64",
               )}
             >
               {/* <img
@@ -33,10 +33,10 @@ export default async function RootLayout({children}: {children: React.ReactNode}
                 src={store.banner}
               /> */}
               <p
-                className="select-none font-bleedingCowboys text-2xl text-[#ff9a21] sm:text-4xl md:text-5xl lg:text-7xl"
+                className="select-none font-bleedingCowboys text-2xl text-[#faeede] sm:text-4xl md:text-5xl lg:text-7xl"
                 style={{textShadow: "black 10px 0 10px"}}
               >
-                LAS MAS RICAS DE ZONA SUR
+                  CALORIAS QUE VALEN LA PENA
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-start">
