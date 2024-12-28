@@ -20,11 +20,11 @@ export default async function RootLayout({children}: {children: React.ReactNode}
   return (
     <html lang="en">
       <body className="bg-background">
-        <div className="font-sans container m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-background antialiased">
+        <div className="font-sans m-auto grid min-h-screen grid-rows-[auto,1fr,auto] bg-background antialiased px-8">
           <header className="text-xl font-bold leading-[4rem]">
             <div
               className={cn(
-                "to-#21040c flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#6e4105] sm:h-52 lg:h-64",
+                "to-[#310e09] flex h-40 w-full items-center justify-center overflow-hidden rounded bg-gradient-to-r from-[#764704] sm:h-52 lg:h-64",
               )}
             >
               {/* <img
@@ -33,8 +33,8 @@ export default async function RootLayout({children}: {children: React.ReactNode}
                 src={store.banner}
               /> */}
               <p
-                className="select-none font-bleedingCowboys text-2xl text-[#faeede] sm:text-4xl md:text-5xl lg:text-7xl"
-                style={{textShadow: "black 10px 0 10px"}}
+                className="select-none font-bleedingCowboys text-2xl text-[#e1d8cc] sm:text-4xl md:text-5xl lg:text-7xl text-nowrap"
+                style={{textShadow: "#2a1b09 10px 0 10px"}}
               >
                   CALORIAS QUE VALEN LA PENA
               </p>

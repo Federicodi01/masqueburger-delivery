@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: "bleeding-cowboys";
-  src: url("../../public/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  src: url("../../public/fonts/BlackOpsOne-Regular.ttf") format("truetype");
 }
 @layer base {
   :root {
